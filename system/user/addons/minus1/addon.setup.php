@@ -7,7 +7,7 @@ return array(
 	'author_url'  => 'https://denniswyman.com',
 	'version'     => '1.0',
 	'namespace'   => 'User\Addons\Minus1',
-	'description' => 'Wrap this tag around any number to subtract one integer from it. Based on Mike Heavers EE2 "Index" plugin to start {count} from zero, but it will work for other things too.',
+	'description' => 'Wrap this tag around any number to subtract one integer from it.',
 );
 
 /* End of file addon.setup.php */
