@@ -1,7 +1,7 @@
 # Minus1 Plugin (for EE3/EE4)
 Wrap this tag around any number to subtract one integer from it. Based on [Mike Heavers EE2 "Index" plugin](https://devot-ee.com/add-ons/mh-index) to start {count} from zero, but it will work for other things too.
 
-This one also sanitizes tag input through EE's `security->xss_clean()` method, actually checks to see if it's numeric, and spits out [Bootstrap](https://getbootstrap.com) friendly error messages if.
+This one also sanitizes tag input through EE's `security->xss_clean()` method, actually checks to see if it's numeric, and spits out [Bootstrap](https://getbootstrap.com) friendly error messages.
 
 ## Usage
 
