@@ -15,9 +15,10 @@ class Minus1 {
 		$precount = ee('Security/XSS')->clean(ee()->TMPL->tagdata);
 		if (! ctype_digit($precount))
 		{
-			ee()->output->fatal_error('Minus1 plugin error: Provided input contains non-numeric characters.');
+			$this->return_data = '<div class="alert alert-danger" role="alert">Minus1 plugin error: Provided input contains non-numeric characters.</div>';
+		} else {
+			$this->return_data = $precount - 1;
 		}
-		$this->return_data = $precount - 1;
 	}
 }
 
