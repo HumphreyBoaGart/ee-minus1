@@ -5,7 +5,7 @@ class Minus1 {
 	public static $version      = '1.0';
 	public static $author       = 'Dennis Wyman';
 	public static $author_url   = 'https://denniswyman.com';
-	public static $description  = 'Wrap this tag around any number to subtract one integer from it. Based on Mike Heavers EE2 "Index" plugin to start {count} from zero, but it will work for other things too.';
+	public static $description  = 'Wrap this tag around any number to subtract one integer from it.';
 	public static $typography   = FALSE;
     
 	public $return_data = '';
