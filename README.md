@@ -1,5 +1,5 @@
 # Minus1 Plugin (for EE3/EE4)
-Wrap this tag around any number to subtract one integer from it. Based on [Mike Heavers EE2 "Index" plugin](https://devot-ee.com/add-ons/mh-index) to start {count} from zero, but it will work for other things too.
+Wrap this tag around any number to subtract one integer from it. Based on [Mike Heavers EE2 "Index" plugin](https://devot-ee.com/add-ons/mh-index) to start {count} from zero, but it will work for other things too. Also sanitizes and validates input and spits out [Bootstrap](https://getbootstrap.com) friendly error messages.
 
 ## Usage
 
