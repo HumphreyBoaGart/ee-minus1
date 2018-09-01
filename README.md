@@ -13,7 +13,7 @@ To output 1978 to your template, it would look like this in your page template:
 
 ```{exp:minus1}1979{/exp:minus1}```
 
-It's real useful for dealing with other EE variables. Say you needed the `{count}` variable in Channel Entries to start with a 0 instead of 1:
+It's real useful for dealing with other EE variables. Say you have one of those Carousel scripts that starts counting items from zero. Since the `{count}` variable in Channel Entries starts with 1, it can be a challenge to line up EE output with frontend JS. Not a problem! You can use Minus1 to drop the `{count}` value by one as it's being spit out to the template, allowing easy integration:
 
 ```{exp:minus1}{count}{/exp:minus1}```
 
