@@ -19,6 +19,10 @@ It's real useful for dealing with other EE variables. Say you needed the `{count
 
 ## Changelog
 
-### 1.0
+### 1.0.1
+- Tag input now explicitely needs to pass `ctype_digit` validation to run, as opposed to relying on the page-breaking `fatal_error` to stop the script.
+- Errors now display inline in `<div class="alert alert-danger">` so they can be styled via a global stylesheet, or easily integrated into a Bootstrap project.
+- Errors now logged to developer log.
 
+### 1.0
 - Initial release
